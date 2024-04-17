@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Abdimannabov Sohib</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Sohib</span><br> Web Developer</h1>
+
+                    <a href="#" class="button">Contact</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://github.com/Sohib04" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="home__blob-img" x="50" y="60" href="assets/profile.png"/>
+                        </g>
+                    </svg>
+                </div>
+            </section>
+
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/about.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'am Sohib</h2>
+                        <p class="about__text">Currently studying in the 2nd year of software engineering in New Uzbekistan University. I live in Almalyk, Tashkent region, Uzbekistan. I love coding, especially in C++ as it is comfotable and easy to use. I ocassionaly use html and javascript for web projects.</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Profesional Skills</h2>
+                        <p class="skills__text">From the first years of my education I have mastered coding in C++. I have solved many leetcode problems. I learnt python myself from YouTube tutorials. Right now I am mastering html and javascript, as well as react.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="work section" id="work">
+                <h2 class="section-title">Projects</h2>
+                <div class="about__container bd-grid">
+                    <p class="about__text">I have 3 projects that I made by myself in python. First i wrote the code and then compiled into a programm. First one is a calculator:
+                        <br>It consists of 10 digits and mathematical operations. To get the result it has "=" button to show the result. You can clear the input if you want by "Clear" button.</p>
+                </div>
+                <div class="work__container bd-grid">
+                    <br>
+                    <a href="" class="work__img">
+                        <img src="assets/img/work1.png" alt="">
+                    </a>
+                    <br>
+                    <div class="about__container bd-grid">
+                        <p class="about__text">Second project is a "rock, paper, scissors" game, in which you can play with the computer. What it does is you first choose one option from 3, after that computer randomly selects its choice as well. The results will be shown under the "Results" part. If you wish you can replay it by pressing "Restart" button.</p>
+                    </div>
+                    <br>
+                    <a href="" class="work__img">
+                        <img src="assets/img/work2.png" alt="">
+                    </a>
+                    <br>
+                    <div class="about__container bd-grid">
+                        <p class="about__text">Last one is a very useful tool to find the correct time interval between hours, minutes, seconds or all of them at the same time. You input necessary time periods and then press "Find" to get the difference.</p>
+                    </div>
+                    <a href="" class="work__img">
+                        <img src="assets/img/work3.png" alt="">
+                    </a>
+                </div>
+            </section>
+            <section class="contact section" id="contact">
+                <div class="about__container bd-grid">
+                    <p class="about__text" text-align="center">I am currently busy studying, so if you have questions or work for me to do you can always contact me by sending your name and information about what you need. I am always available when you need!</p>
+                </div>                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="button" value="Send" class="contact__button button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <script src="script.js"></script>
+    </body>
+</html>
